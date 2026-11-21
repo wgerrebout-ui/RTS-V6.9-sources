@@ -15,8 +15,6 @@ jobs:
         with:
           python-version: '3.10'
 
-      # Java installé par GitHub lui-même (Temurin 17). Si jamais cette version posait problème,
-      # remplacez simplement '17' par '11' : la compilation fonctionne avec les deux.
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
